@@ -56,6 +56,9 @@
           # Necessary for using flakes on this system.
           nix.settings.experimental-features = "nix-command flakes";
 
+          # `sudo` with Touch ID
+          security.pam.enableSudoTouchIdAuth = true;
+
           programs.zsh.enable = false;
           programs.fish.enable = true;
           programs.fish.useBabelfish = true;
