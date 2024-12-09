@@ -41,6 +41,8 @@
             # Development
             pkgs.zig
             pkgs.zls
+            # VSCode
+            pkgs.vscode
           ];
 
           fonts.packages = [
