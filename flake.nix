@@ -45,6 +45,8 @@
             (pkgs.vscode-with-extensions.override {
               vscodeExtensions = [
                 pkgs.vscode-extensions.ziglang.vscode-zig
+                pkgs.vscode-extensions.vadimcn.vscode-lldb
+                pkgs.vscode-extensions.catppuccin.catppuccin-vsc
               ];
             })
           ];
