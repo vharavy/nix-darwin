@@ -42,7 +42,11 @@
             pkgs.zig
             pkgs.zls
             # VSCode
-            pkgs.vscode
+            (pkgs.vscode-with-extensions.override {
+              vscodeExtensions = [
+                pkgs.vscode-extensions.ziglang.vscode-zig
+              ];
+            })
           ];
 
           fonts.packages = [
