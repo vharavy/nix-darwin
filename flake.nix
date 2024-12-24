@@ -25,6 +25,8 @@
           environment.systemPackages = [
             # Neovim and other tools neeeded for it.
             pkgs.neovim
+            pkgs.tree-sitter
+            pkgs.nodejs
             pkgs.lua-language-server
             pkgs.stylua
             # Nix language formatter and LSP
