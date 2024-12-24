@@ -38,9 +38,11 @@
             pkgs.tmux
             # Other packages installed via Homebrew.
             pkgs.google-cloud-sdk
-            # Development
+            # Zig
             pkgs.zig
             pkgs.zls
+            # Markdown
+            pkgs.marksman
             # VSCode
             (pkgs.vscode-with-extensions.override {
               vscodeExtensions = [
