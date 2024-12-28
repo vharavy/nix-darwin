@@ -38,6 +38,7 @@
             pkgs.fd
             pkgs.fzf
             pkgs.tmux
+            pkgs.lazygit
             # Other packages installed via Homebrew.
             pkgs.google-cloud-sdk
             # Zig
