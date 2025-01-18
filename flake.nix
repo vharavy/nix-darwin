@@ -23,8 +23,9 @@
           # List packages installed in system profile. To search by name, run:
           # $ nix-env -qaP | grep wget
           environment.systemPackages = [
-            # Neovim and other tools neeeded for it.
+            # Neovim and other tools needed for it.
             pkgs.neovim
+            pkgs.neovide
             pkgs.tree-sitter
             pkgs.nodejs
             pkgs.lua-language-server
