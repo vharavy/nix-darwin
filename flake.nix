@@ -25,7 +25,6 @@
           environment.systemPackages = [
             # Neovim and other tools needed for it.
             pkgs.neovim
-            pkgs.neovide
             pkgs.tree-sitter
             pkgs.nodejs
             pkgs.lua-language-server
