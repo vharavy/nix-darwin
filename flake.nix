@@ -62,9 +62,12 @@
             pkgs.nerd-fonts.zed-mono
           ];
 
+          # Start GID used by Nix.
+          ids.gids.nixbld = 350;
+
           # Auto upgrade nix package and the daemon service.
-          services.nix-daemon.enable = true;
           nix.package = pkgs.nix;
+          nix.enable = true;
 
           nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
 
