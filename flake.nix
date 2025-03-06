@@ -74,7 +74,7 @@
           nix.settings.experimental-features = "nix-command flakes";
 
           # `sudo` with Touch ID
-          security.pam.enableSudoTouchIdAuth = true;
+          security.pam.services.sudo_local.touchIdAuth = true;
 
           programs.zsh.enable = false;
           programs.fish.enable = true;
