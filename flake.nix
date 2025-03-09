@@ -29,6 +29,8 @@
             pkgs.nodejs
             pkgs.lua-language-server
             pkgs.stylua
+            # Helix
+            pkgs.helix
             # Nix language formatter and LSP
             pkgs.nixfmt-rfc-style
             pkgs.nixd
