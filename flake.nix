@@ -29,6 +29,8 @@
             pkgs.nodejs
             pkgs.lua-language-server
             pkgs.stylua
+            # Zed
+            pkgs.zed-editor
             # Helix
             pkgs.helix
             # Nix language formatter and LSP
