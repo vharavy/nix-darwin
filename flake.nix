@@ -39,6 +39,7 @@
             # Terminal and CLI Utilities
             pkgs.chezmoi
             pkgs.ripgrep
+            pkgs.bat
             pkgs.fd
             pkgs.fzf
             pkgs.tmux
