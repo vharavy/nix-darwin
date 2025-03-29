@@ -64,6 +64,7 @@
 
           fonts.packages = [
             pkgs.nerd-fonts.zed-mono
+            pkgs.nerd-fonts.envy-code-r
           ];
 
           # Start GID used by Nix.
