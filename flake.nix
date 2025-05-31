@@ -60,6 +60,8 @@
             #     pkgs.vscode-extensions.catppuccin.catppuccin-vsc
             #   ];
             # })
+            pkgs.mpv-unwrapped
+            pkgs.librewolf-unwrapped
           ];
 
           fonts.packages = [
