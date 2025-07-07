@@ -62,6 +62,10 @@
             # })
             pkgs.mpv-unwrapped
             pkgs.librewolf-unwrapped
+            # AI
+            pkgs.claude-code
+            pkgs.gemini-cli
+            pkgs.chatgpt
           ];
 
           fonts.packages = [
