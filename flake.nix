@@ -65,7 +65,6 @@
             # AI
             pkgs.claude-code
             pkgs.gemini-cli
-            pkgs.chatgpt
           ];
 
           fonts.packages = [
