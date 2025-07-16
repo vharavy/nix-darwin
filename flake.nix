@@ -29,8 +29,6 @@
             pkgs.nodejs
             pkgs.lua-language-server
             pkgs.stylua
-            # Zed
-            pkgs.zed-editor
             # Helix
             pkgs.helix
             # Nix language formatter and LSP
@@ -52,16 +50,6 @@
             pkgs.zls
             # Markdown
             pkgs.marksman
-            # VSCode
-            # (pkgs.vscode-with-extensions.override {
-            #   vscodeExtensions = [
-            #     pkgs.vscode-extensions.ziglang.vscode-zig
-            #     pkgs.vscode-extensions.vadimcn.vscode-lldb
-            #     pkgs.vscode-extensions.catppuccin.catppuccin-vsc
-            #   ];
-            # })
-            pkgs.mpv-unwrapped
-            pkgs.librewolf-unwrapped
             # AI
             pkgs.claude-code
             pkgs.gemini-cli
