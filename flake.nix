@@ -113,11 +113,11 @@
     {
       # Build darwin flake using:
       # $ darwin-rebuild build --flake .#simple
-      darwinConfigurations."macbook-air" = nix-darwin.lib.darwinSystem {
+      darwinConfigurations."vmba" = nix-darwin.lib.darwinSystem {
         modules = [ configuration ];
       };
 
       # Expose the package set, including overlays, for convenience.
-      darwinPackages = self.darwinConfigurations."macbook-air".pkgs;
+      darwinPackages = self.darwinConfigurations."vmba".pkgs;
     };
 }
