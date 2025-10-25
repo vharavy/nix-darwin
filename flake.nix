@@ -53,6 +53,8 @@
             # AI
             pkgs.claude-code
             pkgs.gemini-cli
+            # Other
+            pkgs.mpv
           ];
 
           fonts.packages = [
