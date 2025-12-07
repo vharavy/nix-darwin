@@ -48,6 +48,8 @@
             # Zig
             pkgs.zig
             pkgs.zls
+            # Python
+            pkgs.uv
             # Markdown
             pkgs.marksman
             # AI
