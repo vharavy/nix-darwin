@@ -43,6 +43,7 @@
             pkgs.tmux
             pkgs.lazygit
             pkgs.lsd
+            pkgs.jujutsu
             # Other packages installed via Homebrew.
             pkgs.google-cloud-sdk
             # Zig
