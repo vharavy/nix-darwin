@@ -44,6 +44,8 @@
             pkgs.lazygit
             pkgs.lsd
             pkgs.jujutsu
+            # Development
+            pkgs.imhex
             # Other packages installed via Homebrew.
             pkgs.google-cloud-sdk
             # Zig
