@@ -46,6 +46,8 @@
             pkgs.jujutsu
             # Development
             pkgs.imhex
+            ## Libraries
+            pkgs.glfw
             # Other packages installed via Homebrew.
             pkgs.google-cloud-sdk
             # Zig
