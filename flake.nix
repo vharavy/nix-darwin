@@ -32,7 +32,7 @@
             # Helix
             pkgs.helix
             # Nix language formatter and LSP
-            pkgs.nixfmt-rfc-style
+            pkgs.nixfmt
             pkgs.nixd
             # Terminal and CLI Utilities
             pkgs.chezmoi
@@ -42,12 +42,10 @@
             pkgs.fzf
             pkgs.tmux
             pkgs.lazygit
-            pkgs.lsd
+            pkgs.eza
             pkgs.jujutsu
             # Development
             pkgs.imhex
-            # Other packages installed via Homebrew.
-            pkgs.google-cloud-sdk
             # Zig
             pkgs.zig
             pkgs.zls
@@ -55,11 +53,6 @@
             pkgs.uv
             # Markdown
             pkgs.marksman
-            # AI
-            pkgs.claude-code
-            pkgs.gemini-cli
-            # Other
-            pkgs.mpv
           ];
 
           fonts.packages = [
