@@ -56,8 +56,6 @@
           ];
 
           fonts.packages = [
-            pkgs.nerd-fonts.zed-mono
-            pkgs.nerd-fonts.envy-code-r
             pkgs.nerd-fonts.jetbrains-mono
           ];
 
