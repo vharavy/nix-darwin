@@ -53,6 +53,8 @@
             pkgs.uv
             # Markdown
             pkgs.marksman
+            # AI
+            pkgs.opencode
           ];
 
           fonts.packages = [
