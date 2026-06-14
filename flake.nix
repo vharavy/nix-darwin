@@ -43,8 +43,9 @@
             pkgs.tmux
             pkgs.lazygit
             pkgs.eza
-            pkgs.jujutsu
             # Development
+            pkgs.jujutsu
+            pkgs.sapling
             pkgs.imhex
             # Zig
             pkgs.zig
