@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nix-darwin.url = "github:LnL7/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
+    ki-editor.url = "github:ki-editor/ki-editor";
   };
 
   outputs =
@@ -12,6 +13,7 @@
       self,
       nix-darwin,
       nixpkgs,
+      ki-editor,
     }:
     let
       configuration =
@@ -56,6 +58,9 @@
             pkgs.marksman
             # AI
             pkgs.opencode
+
+            #
+            inputs.ki-editor.packages.${pkgs.system}.default
           ];
 
           fonts.packages = [
