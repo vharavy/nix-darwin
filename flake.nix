@@ -48,7 +48,6 @@
             # Development
             pkgs.jujutsu
             pkgs.sapling
-            pkgs.imhex
             # Zig
             pkgs.zig
             pkgs.zls
@@ -60,7 +59,7 @@
             pkgs.opencode
 
             #
-            inputs.ki-editor.packages.${pkgs.system}.default
+            ki-editor.packages.${pkgs.system}.default
           ];
 
           fonts.packages = [
