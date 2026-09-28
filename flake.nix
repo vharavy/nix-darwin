@@ -70,7 +70,7 @@
           ids.gids.nixbld = 350;
 
           # Auto upgrade nix package and the daemon service.
-          nix.package = pkgs.nix;
+          nix.package = pkgs.lixPackageSets.stable.lix;
           nix.enable = true;
 
           nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
